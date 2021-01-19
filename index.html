@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='author' content='Liam Stockton'>
+    <meta name='description' content=''>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta property='og:image' content=''>
+    <meta property='og:title' content=''>
+    <meta property='og:description' content=''>
+        <title>Music Durration Calulator</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='shortcut icon' href='' type='image/x-icon'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <script src="script.js"></script>
+        <nav class="nav-bar">
+            <header>
+                <img width="100px" src="img/logo-nowords.png" alt="Logo">
+            </header>
+            <div class="head-text">
+                <h2 id="title">Music Duration Calculator</h2>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <main>
+                <h2 id="title-small">Welcome to the Music Duration Calculator</h2>
+                <div class="text-wrap">
+                    <p id="sub-text">Trying to make a mix-tape with one of the old cassette tapes without running out of tape? Or are you trying to burn your own albums on cd but don't want to only burn to half an album? Not to worry for the Music Durration Calculator will calculate all of your song's timestamps and then give you exactly how long your hot mix tape really is!</p>
+                </div>
+                <div class="calculator">
+                    <input placeholder="3:45, 2:49, 5:34" id="input" type="text">
+                    <button onclick="getValue()">Calculate</button>
+                </div>
+                <p id="output"></p>
+            </main>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+    background-color:rgb(20, 44, 87);
+}
+
+.nav-bar{
+    width: auto;
+    height: 100px;
+    background-color: rgb(42, 87, 170);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar header{
+    display: flex;
+    margin: 15px;
+    justify-content: left;
+}
+
+header img {
+    margin-top: 15px;
+}
+
+.head-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#title {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.wrapper {
+    width: 85%;
+    background-color: rgb(156, 190, 253);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: auto;
+}
+
+#title-small {
+    font-family: 'Inconsolata', monospace;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+main {
+    text-align: center;
+}
+
+.text-wrap {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    font-family: 'Inconsolata', monospace;
+    word-spacing: 5px;
+}
+
+.calculator {
+    margin-bottom: 2%;
+}
+
+#output {
+    font-family: 'Inconsolata', monospace;
+    padding-bottom: 25px;
+    font-size: 1.7rem;
+}
+
+input {
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    background-color: rgb(213, 228, 255);
+    outline: none;
+    border: solid black 2px;
+    font-family: 'Inconsolata', monospace;
+    color: black;
+}
+
+button {
+    width: 100px;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    background-color: #8be381;
+    border: solid gray 1px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    width: 100px;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    background-color: #5fc454;
+    border: solid rgb(0, 0, 0) 2px;
+    transition-duration: 1s;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.3rem;
+}
