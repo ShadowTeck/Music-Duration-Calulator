@@ -34,11 +34,62 @@
                 <div class="text-wrap">
                     <p id="sub-text">Trying to make a mix-tape with one of the old cassette tapes without running out of tape? Or are you trying to burn your own albums on cd but don't want to only burn to half an album? Not to worry for the Music Durration Calculator will calculate all of your song's timestamps and then give you exactly how long your hot mix tape really is!</p>
                 </div>
+                <h2 id="title-small">Simple Calculator</h2>
                 <div class="calculator">
                     <input placeholder="3:45, 2:49, 5:34" id="input" type="text">
-                    <button onclick="getValue()">Calculate</button>
+                    <button id="calculate" onclick="getInput()">Calculate</button>
                 </div>
                 <p id="output"></p>
+                <h2 id="title-small">TrackList Calculator</h2>
+                <div class="table">
+                    <table id="table">
+                        <tbody id="tbody">
+                            <div class="rowCon">
+                                <h3 style="margin-right: 10px;">Add more rows:</h3>
+                                <input style="margin-right: 10px;" id="rowCount" class="default-input" type="number">
+                                <br>
+                                <button onclick="addRows()" class="button-def">Add Rows</button>
+                            </div>
+                            <button id="calculate" onclick="getValue()">Calculate</button>
+                            <tr>
+                                <th>#</th>
+                                <th>Artist</th>
+                                <th>Song</th>
+                                <th>Duration</th>
+                            </tr>
+                            <tr>
+                                <td>1.</td>
+                                <td><input id="artist-input1" placeholder="Twenty One Pilots" class="small-input" type="text"></td>
+                                <td><input id="song-input1" placeholder="Stressed Out" class="small-input" type="text"></td>
+                                <td><input id="duration-input1" placeholder="3:22" class="small-input" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td><input id="artist-input2" class="small-input" type="text"></td>
+                                <td><input id="song-input2" class="small-input" type="text"></td>
+                                <td><input id="duration-input2" class="small-input" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td><input id="artist-input3" class="small-input" type="text"></td>
+                                <td><input id="song-input3" class="small-input" type="text"></td>
+                                <td><input id="duration-input3" class="small-input" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>4.</td>
+                                <td><input id="artist-input4" class="small-input" type="text"></td>
+                                <td><input id="song-input4" class="small-input" type="text"></td>
+                                <td><input id="duration-input4" class="small-input" type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>5.</td>
+                                <td><input id="artist-input5" class="small-input" type="text"></td>
+                                <td><input id="song-input5" class="small-input" type="text"></td>
+                                <td><input id="duration-input5" class="small-input" type="text"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </main>
         </div>
     </body>

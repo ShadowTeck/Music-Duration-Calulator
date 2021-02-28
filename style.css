@@ -18,6 +18,7 @@ time, mark, audio, video {
 
 html {
     background-color:rgb(20, 44, 87);
+    scroll-behavior: smooth;
 }
 
 .nav-bar{
@@ -59,7 +60,8 @@ header img {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    height: auto;
+    height: 0 auto;
+    overflow: auto;
 }
 
 #title-small {
@@ -71,6 +73,7 @@ header img {
 
 main {
     text-align: center;
+    height: 0 auto;
 }
 
 .text-wrap {
@@ -125,4 +128,77 @@ button:hover {
     transition-duration: 1s;
     font-family: 'Balsamiq Sans', cursive;
     font-size: 1.3rem;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+td, th {
+    border: 1px solid inherit;
+    text-align: center;
+    padding: 8px;
+}
+
+tr {
+    gap: 15px;
+}
+
+.small-input{
+    width: 180px;
+    height: 25px;
+    font-size: 16px;
+    background-color: rgb(244, 248, 255);
+    outline: none;
+    border: solid black 2px;
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    text-align: left;
+}
+
+.default-input {
+    width: 50px;
+    height: 25px;
+    font-size: 16px;
+    background-color: rgb(244, 248, 255);
+    outline: none;
+    border: solid black 2px;
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    text-align: left;
+}
+
+.button-def {
+    width: 70px;
+    height: 40px;
+    padding: 0;
+    margin: 5px;
+    background-color: #8be381;
+    border: solid gray 1px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: .9rem;
+}
+
+.button-def:hover {
+    width: 70px;
+    height: 40px;
+    padding: 0;
+    margin: 5px;
+    background-color: #5fc454;
+    border: solid gray 1px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: .9rem;
+}
+
+#calculate {
+    margin-bottom: 25px;
+}
+
+.rowCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
