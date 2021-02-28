@@ -244,3 +244,11 @@ function resetCode(){
 
 resetCode();
 }
+
+function resetPage(){
+    if (confirm("Are you sure you want to reset?")) {
+        location.reload();
+    } else {
+        return;
+    }
+}

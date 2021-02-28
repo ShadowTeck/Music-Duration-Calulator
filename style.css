@@ -193,6 +193,28 @@ tr {
     font-size: .9rem;
 }
 
+.button-def-warn {
+    width: 70px;
+    height: 40px;
+    padding: 0;
+    margin: 5px;
+    background-color: #e38181;
+    border: solid gray 1px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: .9rem;
+}
+
+.button-def-warn:hover {
+    width: 70px;
+    height: 40px;
+    padding: 0;
+    margin: 5px;
+    background-color: #c45c54;
+    border: solid gray 1px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: .9rem;
+}
+
 #calculate {
     margin-bottom: 25px;
 }
